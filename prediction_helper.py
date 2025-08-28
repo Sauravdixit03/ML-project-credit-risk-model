@@ -8,7 +8,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Build path to the Artifacts folder inside repo
-MODEL_PATH = os.path.join(BASE_DIR, "Artifacts", "C:\Users\skd53\ML-project-credit-risk-model\Artifacts\model_data.joblib")
+MODEL_PATH = os.path.join(BASE_DIR, "Artifacts", "model_data.joblib")
 
 # Load the model and its components
 model_data = joblib.load(MODEL_PATH)

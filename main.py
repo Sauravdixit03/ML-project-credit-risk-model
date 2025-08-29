@@ -1,6 +1,15 @@
 import streamlit as st
 from prediction_helper import predict
 
+import os, sys, subprocess
+
+try:
+    import joblib
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
+    import joblib
+
+
 st.title("Lauki Finance:Credit Risk Modeling")
 
 row1=st.columns(3)

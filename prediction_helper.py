@@ -1,4 +1,4 @@
-import joblib
+import joblib as jb
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
@@ -11,7 +11,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "Artifacts", "model_data.joblib")
 
 # Load the model and its components
-model_data = joblib.load(MODEL_PATH)
+model_data = jb.load(MODEL_PATH)
 model = model_data['model']
 scaler = model_data['scaler']
 features = model_data['features']

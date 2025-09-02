@@ -1,5 +1,5 @@
 # ML-project-credit-risk-model
-<!-- Project Overview
+Project Overview
 
 This project aims to predict whether a loan applicant will default or not using machine learning classification techniques.
 It helps financial institutions minimize risk and make better lending decisions.
@@ -46,4 +46,4 @@ Results
 Best-performing model achieved 93% accuracy.
 My precesion for default group is 56% and for non-default group is 99%.
 Recall for default group is 94% and for non-default group is 93%. 
-Provides a reliable way to assess applicant risk for credit approval. -->
+Provides a reliable way to assess applicant risk for credit approval.
